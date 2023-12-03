@@ -16,7 +16,9 @@ public class servidorTCP {
         preguntas = new ArrayList<>();
         preguntas.add(new preguntas("¿Cuál es la capital de Francia?", "París", 100));
         preguntas.add(new preguntas("¿Cuánto es 2 + 2?", "4", 100));
-        // Agrega más preguntas según sea necesario
+        preguntas.add(new preguntas("¿En qué año se llevó a cabo la Revolución Rusa?", "1917", 100));
+        preguntas.add(new preguntas("¿Cuál es la capital de Australia?","Canberra",100));
+        preguntas.add(new preguntas("¿Quién fue la primera mujer en recibir el Premio Nobel de la Paz?", "Marie Curie",100));
 
         indicePreguntaActual = 0;
         puntos = 0;
